@@ -8,22 +8,26 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="main-container">
+  <div class="main">
     <div class="left">
-      <div class="background-image">
-        <div class="logo">
-          <img src="../images/odin-lined.png" alt="Logo" width="100">
+      <div class="logo">
+        <div class="semi-transparent">
+          <img src="../images/odin-lined.png" alt="Logo" height="100px">
           <h1>ODIN</h1>
         </div>
       </div>
-      <div class="footer">Photo by <a href="https://unsplash.com/@asoggetti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alessio Soggetti</a> on <a href="https://unsplash.com/photos/zAQoZwidDbs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      <div class="footer">
+        <p>Photo by <a class="a-footer" href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a class="a-footer" href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
       </div>
     </div>
     <div class="right">
-      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-      <p>You <em>know</em> you want to.<p>
-      <form>
-        <h2>Let's do this!</h2>
+      <div class="text-section">
+        <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h3>
+        <h3>You <em>know</em> you want to.<h3>
+      </div>
+      <form action="" method="get">
+        <div class="input-section">
+          <h3>Let's do this!</h3>
         <div>
           <label for="first_name">FIRST NAME</label>
           <input type="text" name="first_name" id="first_name" required>
@@ -48,7 +52,10 @@
           <label for="confirm_password">CONFIRM PASSWORD</label>
           <input type="password" name="confirm_password" id="confirm_password" required>
         </div>
-        <button type="submit">Create Account</button>
+        </div>
+        <div class="button-section">
+          <button type="submit">Create Account</button>
+        </div>
       </form>
       <p>Already have an account? <a href="">Log in</a></p>
     </div>
